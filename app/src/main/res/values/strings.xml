@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">My Family</string>
+    <string-array name="family_kin">
+        <item>Папа</item>
+        <item>Мама</item>
+        <item>Муж</item>
+        <item>Жена</item>
+        <item>Ребенок</item>
+    </string-array>
+    <string-array name="name_kin">
+        <item>Юрий</item>
+        <item>Рим</item>
+        <item>Ирина</item>
+        <item>Зифа</item>
+        <item>Ринат</item>
+        <item>Катерина</item>
+        <item>Роберт</item>
+    </string-array>
+    <string name="family_fact">На самом деле родители: Рим и Зифа, Юрий и Ирина, а ребенок - Роберт</string>
 </resources>
