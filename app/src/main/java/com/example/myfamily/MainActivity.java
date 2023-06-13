@@ -20,9 +20,9 @@ public class MainActivity extends Activity {
         TextView text_family = (TextView) findViewById(R.id.text_family);
         Spinner familyKin = (Spinner) findViewById(R.id.familyKin);
         Spinner nameKin = (Spinner) findViewById(R.id.nameKin);
-        String result1 = String.valueOf(familyKin.getSelectedItem());
-        String result2 = String.valueOf(nameKin.getSelectedItem());
-        String resultFamily = result1 + " " + result2;
-        text_family.setText(resultFamily);
+//        String result1 = String.valueOf(familyKin.getSelectedItem());
+//        String result2 = String.valueOf(nameKin.getSelectedItem());
+//        String resultFamily = result1 + " " + result2;
+        text_family.setText(String.valueOf(familyKin.getSelectedItem()) + " " + String.valueOf(nameKin.getSelectedItem()));
     }
 }
