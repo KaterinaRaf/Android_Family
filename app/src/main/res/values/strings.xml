@@ -16,5 +16,6 @@
         <item>Катерина</item>
         <item>Роберт</item>
     </string-array>
+    <string name="btn_result">Выберите соответствие имени и роли в семье и нажмите кнопку</string>
     <string name="family_fact">На самом деле родители: Рим и Зифа, Юрий и Ирина, а ребенок - Роберт</string>
 </resources>
